@@ -1,6 +1,6 @@
 ##Human Activity Recognition Using Smartphones Data Set
 
-  ###Original variables:
+### Original variables:
   
   As described by the 'features_info.txt' file in the dataset. [Source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
