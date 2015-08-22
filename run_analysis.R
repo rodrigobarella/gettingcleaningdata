@@ -11,7 +11,7 @@
 ## In case the required dataset is not available, run the following code to properly download
 ## and unzip the required files in your working directory. 
 
-## It is also possible to manually download with the URL provided below
+## It is also possible to manually download with the URL provided below. Access
 ## the files and create a folder called 'data'. Unzip the file inside 'data' directory
 
 ## Creating folder to store raw data
