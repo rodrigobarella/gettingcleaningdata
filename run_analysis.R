@@ -94,7 +94,11 @@ library(plyr)
 summarizedData <- ddply(data[,3:ncol(data)],.(data$Subject,data$Activity),.fun=colMeans,na.rm=T)
 
 ## Attributing names of the first two columns of the summarized data frame
-names(sumData)[c(1,2)] <- c("Subject","Activity")
+names(summarizedData)[c(1,2)] <- c("Subject","Activity")
+
+## Including 'avSA' label to measurement features to identify that they correspond to mean values
+## subject and activity
+names(summarizedData)[3:ncol(summarizedData)] <- paste("avSA_",names(summarizedData)[3:ncol(summarizedData)],sep="")
 
 ## Writting new tidy data set in a '.txt' file  
 write.table(summarizedData,file="tidydataset.txt",row.names=F)
