@@ -14,3 +14,11 @@ The outputs of this script are:
 
   1. A tidy dataset with measurements on the mean and standard deviation for each measurement (genetated in step 4)
   2. Independent data set summarizing the average of each variable for each activity and subject
+
+More informations on the dataset can be found at the following URL:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+The used data can be downloaded in the following link:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
