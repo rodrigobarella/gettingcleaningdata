@@ -61,4 +61,4 @@
 
 ### Summarized dataset
 
-To create an independent tidy dataset (step 5) of 'run_analysis.R' script, selected variables were renamed to include 'avSA' string before each variable, which means that this is the average value of the measurement for the subject and activity described in the same row.
+To create an independent tidy dataset (step 5) of 'run_analysis.R' script, selected variables were renamed to include 'avSA' string before each variable label, which means that this is the average value of the measurement for the subject and activity described in the same row.
